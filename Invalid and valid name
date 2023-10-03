@@ -1,0 +1,24 @@
+// invalid and valid name
+    while (true) {
+        cout << "Enter your name: ";
+        getline(cin, userName);
+        bool validName = true;
+        for (char c : userName) {
+            if (!isalpha(c) && !isspace(c)) {
+                validName = false;
+                break;
+            }
+        }
+        if (validName) {
+            for (char &c : userName) {
+                if (isalpha(c)) {
+                    c = toupper(c);
+                } else {
+                    c = tolower(c);
+                }
+            }
+            break;
+        } else {
+            cout << "Error name format is invalid. Please enter a valid name." << endl;
+        }
+    }
