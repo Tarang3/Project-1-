@@ -1,0 +1,7 @@
+
+    // Display student information
+    cout << "+-------------------------------------------------+" << endl;
+    cout << "| Computer Science and Engineering                 |" << endl;
+    cout << "| CSCE 1030 - Computer Science I                  |" << endl;
+    cout << "| Student Name EUID euid@my.unt.edu               |" << endl;
+    cout << "+-------------------------------------------------+" << endl;
